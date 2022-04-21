@@ -1,0 +1,183 @@
+@media screen and (min-width: 1px){
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+    body {
+        width: 1920px;
+        background-color: #333333;
+        font-family: 'Poppins', sans-serif;
+        }
+    
+    #header {
+        height: 120px;
+        width: 80%;
+        position: relative;
+        left: 10%;   
+    }
+
+    .logo {
+        position: relative;
+        padding-top: 10px;
+        width: 12%;
+        display: inline-flex;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    .menu {
+        position: relative;
+        padding-top: 15px;
+        display: inline-block;
+        float: left; 
+        height: 55px;
+    }
+
+    .find {
+        position: relative;
+        padding-top: 15px;
+        display: inline-block;
+        float: right;
+        height: 55px;
+    }
+
+    #social {
+        width: 10%;
+        height: 80%;
+        position: sticky;
+        top: 120px;
+        float: left;
+    }
+
+    .icons {
+        text-align: center;
+    }
+
+    .oneicon {
+        margin-bottom: 30px;
+        width: 15px;
+    }
+
+    #articles {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .article-large2 {
+        position: relative;
+        top: -1110px;
+        left: 36%;
+        width: 97%;
+        
+    }
+
+    .article-large img {
+        width: 990px;
+    }
+
+    .article-large h1 {
+        position: relative;
+        top: -250px;
+        left: 100px;
+        z-index: 2;
+        color: white;
+        font-size: 28pt;
+    }
+
+    .article-large h3 {
+        position: relative;
+        top: -250px;
+        left: 100px;
+        z-index: 2;
+        color: white;
+        font-size: 14pt;
+    }
+
+    .article-large img:hover {
+        border: 5px solid #7028E4;
+    }
+
+    .discover {
+        height: 80%;
+        width: 540px;
+        height: 670px;
+        position: absolute;
+        top: 125px;
+        left: 1210px;
+        background-color: #7028E4;
+    }
+
+    .discover svg {
+        position: absolute;
+        top: 80px;
+        left: 105px;
+        width: 300px;      
+    }
+
+    .discover h1 {
+        position: absolute;
+        top: 460px;
+        left: 70px;
+        text-align: center;
+        color: white;
+        font-size: 28pt;
+    }
+
+
+    .article-small1 {
+        position: relative;
+        top: -150px;
+    }
+
+    .article-small2 {
+        position: relative;
+        top: -300px;
+    }
+
+    .article-small img {
+        width: 35%;
+        height: 310px;
+        margin-bottom: 20px;
+    }
+
+    .article-small h1 {
+        position: relative;
+        top: -160px;
+        left: 50px;
+        z-index: 2;
+        color: white;
+        font-size: 20pt;
+    }
+
+    .article-small h3 {
+        position: relative;
+        top: -160px;
+        left: 50px;
+        z-index: 2;
+        color: white;
+    }
+
+    .article-small img:hover {
+        border: 5px solid #7028E4;
+    }
+
+    #footer {
+        width: 100%;
+        height: 50px;
+        background-color: #222222;
+        position: relative;
+        top: -1200px;
+    }
+
+    #footer span{
+        position: relative;
+        left: 10%;
+        top: 15px;
+        color: #555555;
+    }
+
+    #footer svg{
+        position: relative;
+        left: 1680px;
+        width: 60px;
+    }
+}
